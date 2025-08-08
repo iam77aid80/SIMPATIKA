@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Paga'de - Pasar Warga" android:textSize="20sp" android:layout_marginBottom="12dp"/>
+  <Button android:id="@+id/btnAddProduct" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tambah Produk"/>
+  <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerPagade" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="8dp"/>
+</LinearLayout>
